@@ -91,7 +91,3 @@ docker-compose up --build room-ws-service
 
 ## **Contributing**
 PRs are welcome for improving real-time interactions.
-
-## **License**
-MIT License
-```
