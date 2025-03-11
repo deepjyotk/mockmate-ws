@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  room-ws-service:
+    image: deepjyot/room-ws-service:latest
+    ports:
+      - "9090:9090"
+    env_file:
+      - ./.env.docker
+#    depends_on:
+#      postgres:
+#        condition: service_healthy

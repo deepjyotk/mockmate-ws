@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: mockmate-ws
+server:
+  port: 9090
+
+dotenv:
+  enabled: true
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        websocket: TRACE
+        messaging: TRACE
+
+custom:
+  auth-service:
+    url: ${AUTH_SERVICE_URL}
